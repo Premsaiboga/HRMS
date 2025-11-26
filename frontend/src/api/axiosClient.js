@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosClient = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || "https://hrms-xrqy.onrender.com",
+  baseURL: import.meta.env.VITE_API_BASE_URL || "https://hrms-xrqy.onrender.com/api/",
 });
 
 // ✅ Automatically attach JWT token for every request
